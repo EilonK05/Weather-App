@@ -1,6 +1,6 @@
 import React from 'react'
 
-function CurrentWeather() {
+function CurrentWeather({ time, temperature, humidity, windspeed, icon }) {
     return (
         <div>
             <span>Time</span>
